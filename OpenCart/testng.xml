@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test1">
+    <classes>
+      <class name="Login"/>
+    </classes>
+  </test>
+  <test  name="Test2">
+    <classes>
+      <class name="Register"/>
+    </classes>
+  </test>
+  <test  name="Test3">
+    <classes>
+      <class name="Search"/>
+    </classes>
+  </test>
+  <test  name="Test4">
+    <classes>
+      <class name="Add_to_cart"/>
+    </classes>
+  </test>
+  <test  name="Test5">
+    <classes>
+      <class name="CheckOut"/>
+    </classes>
+  </test>
+  <test  name="Test6">
+    <classes>
+      <class name="LogOut"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

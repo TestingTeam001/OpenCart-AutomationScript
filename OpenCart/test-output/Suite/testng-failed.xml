@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="Register">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="R_TC_03"/>
+          <include name="R_TC_01"/>
+        </methods>
+      </class> <!-- Register -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test5(failed)">
+    <classes>
+      <class name="CheckOut">
+        <methods>
+          <include name="CO_TC_01"/>
+          <include name="beforetest"/>
+          <include name="CO_TC_03"/>
+          <include name="CO_TC_02"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- CheckOut -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite] -->

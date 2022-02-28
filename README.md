@@ -1,0 +1,2 @@
+# OpenCart-AutomationScript
+This is an open source demo website automation testing project which will help us to know the bugs and errors happens when we deploy this web application to real time environment We have done integration testing, regression testing and system testing. We found a lots of bugs as like state elemental exception. The manual testing document have the result of all the bugs and defects. This project is made by my team. The team members name are Shivam Roy, Giridev Rabha, Gopi Meghana, Ashutosh Khan. Thank you.

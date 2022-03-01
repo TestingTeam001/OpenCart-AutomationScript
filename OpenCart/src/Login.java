@@ -43,7 +43,7 @@ public class Login {
 		driver.findElement(By.id("input-email")).sendKeys("gmail@mail.com");
 		driver.findElement(By.xpath("//input[@value='Continue']")).click();
 		String confirm=driver.findElement(By.xpath("//body/div[@id='account-login']/div[1]")).getText();
-		System.out.println(confirm);
+		Assert.assertTrue(confirm.contains("Login Successfully"));
 	}
 	@BeforeTest
 	  public void beforeClass() {

@@ -20,7 +20,8 @@ public class HomePage {
   @Test(priority=1)
   public void HP_TC_01() {
 	  
-	  driver.findElement(By.xpath("//a[contains(text(),'Your Store')]")).click();
+	  String Home=driver.findElement(By.xpath("//a[contains(text(),'Your Store')]")).getText();
+	  Assert.assertTrue(Home.contains("Your Store"));
   }
   @Test(priority=2)
   public void HP_TC_02() {
